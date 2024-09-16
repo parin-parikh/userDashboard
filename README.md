@@ -1,50 +1,111 @@
-# React + TypeScript + Vite
+```markdown
+# User Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that allows users to view and navigate between different users' profiles and activities using a dropdown menu. This project integrates with a mock REST API to fetch user data and display user activities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Profile**: Displays basic information about the selected user.
+- **User Activities**: Shows a list of activities (posts) for the selected user.
+- **Dropdown Navigation**: Allows easy navigation between different users without manually editing URLs.
+- **Responsive Design**: Ensures a user-friendly experience across various devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Frontend library for building user interfaces.
+- **TypeScript**: Provides type safety for the application.
+- **CSS**: For styling the components.
+- **Axios**: For making HTTP requests to the REST API.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Follow these instructions to set up and run the project locally.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Node.js (v14 or higher)
+- npm or Yarn
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/user-dashboard.git
+   cd user-dashboard
+   ```
+
+2. **Install Dependencies**
+
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+   Or using Yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Start the Development Server**
+
+   Using npm:
+   ```bash
+   npm start
+   ```
+
+   Or using Yarn:
+   ```bash
+   yarn start
+   ```
+
+   This will start the development server and open the application in your default web browser.
+
+### Usage
+
+1. **Select a User**: Use the dropdown menu to select a user from the list.
+2. **View User Profile**: The selected user's profile information will be displayed.
+3. **View User Activities**: The activities (posts) of the selected user will be shown.
+
+### Project Structure
+
+- **`src/`**: Contains all the source code for the project.
+  - **`components/`**: Contains React components.
+    - **`UserProfile.tsx`**: Component to display user profile information.
+    - **`UserActivities.tsx`**: Component to display user activities.
+  - **`App.tsx`**: Main application component.
+  - **`index.tsx`**: Entry point for the React application.
+- **`public/`**: Contains static assets like `index.html`.
+- **`index.css`**: Global styles for the project.
+
+### Styling
+
+All component styling is defined in `index.css`, following a navy blue and white theme.
+
+### Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Contact
+
+For any questions or inquiries, please contact:
+
+- **Name**: Parin Parikh
+- **Email**: parinparikh1@gmail.com
+- **LinkedIn**: [linkedin.com/in/parinparikh1](https://www.linkedin.com/in/parinparikh1)
+
+---
+
+Feel free to customize the contact information and any other details as needed!
 ```
