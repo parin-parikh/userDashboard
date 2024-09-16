@@ -41,21 +41,11 @@ Follow these instructions to set up and run the project locally.
    npm install
    ```
 
-   Or using Yarn:
-   ```bash
-   yarn install
-   ```
-
 3. **Start the Development Server**
 
    Using npm:
    ```bash
    npm start
-   ```
-
-   Or using Yarn:
-   ```bash
-   yarn start
    ```
 
    This will start the development server and open the application in your default web browser.
