@@ -1,4 +1,3 @@
-```markdown
 # User Dashboard
 
 A React application that allows users to view and navigate between different users' profiles and activities using a dropdown menu. This project integrates with a mock REST API to fetch user data and display user activities.
