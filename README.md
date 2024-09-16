@@ -81,21 +81,6 @@ Follow these instructions to set up and run the project locally.
 
 All component styling is defined in `index.css`, following a navy blue and white theme.
 
-### Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ### Contact
 
 For any questions or inquiries, please contact:
@@ -103,8 +88,3 @@ For any questions or inquiries, please contact:
 - **Name**: Parin Parikh
 - **Email**: parinparikh1@gmail.com
 - **LinkedIn**: [linkedin.com/in/parinparikh1](https://www.linkedin.com/in/parinparikh1)
-
----
-
-Feel free to customize the contact information and any other details as needed!
-```
