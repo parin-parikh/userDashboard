@@ -64,8 +64,7 @@ Follow these instructions to set up and run the project locally.
     - **`UserActivities.tsx`**: Component to display user activities.
   - **`App.tsx`**: Main application component.
   - **`index.tsx`**: Entry point for the React application.
-- **`public/`**: Contains static assets like `index.html`.
-- **`index.css`**: Global styles for the project.
+  - **`index.css`**: Global styles for the project.
 
 ### Styling
 
