@@ -23,7 +23,7 @@ Follow these instructions to set up and run the project locally.
 ### Prerequisites
 
 - Node.js (v14 or higher)
-- npm or Yarn
+- npm
 
 ### Installation
 
